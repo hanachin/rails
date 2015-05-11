@@ -135,7 +135,7 @@ module RailsGuides
 
       def generate_title
         if heading = Nokogiri::HTML.fragment(@header).at(:h2)
-          @title = "#{heading.text} — Ruby on Rails Guides"
+          @title = "#{heading.text} — Ruby on Rails Guides hihi hihi"
         else
           @title = "Ruby on Rails Guides"
         end
